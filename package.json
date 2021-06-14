@@ -1,0 +1,19 @@
+{
+  "name": "precily",
+  "version": "1.0.0",
+  "description": "a todo app",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "node": "^16.1.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yash-sinha",
+  "license": "ISC"
+}

@@ -1,0 +1,29 @@
+.sidepanel{
+  display: flex;
+  justify-content: space-evenly;
+  width: fit-content;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.flex-item-left {
+ 
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+
+  padding: 10px;
+  flex: 50%;
+}
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+
